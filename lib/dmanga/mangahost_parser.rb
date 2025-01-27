@@ -5,7 +5,7 @@ module DManga
   class MangaHostParser < SiteParserBase
 
     # url used to search in the site
-    SEARCH_URL = "https://mangahosted.com/find/"
+    SEARCH_URL = "https://mangahosted.org/search"
 
     # regex to extract url of found mangas
     SEARCH_LINK_REGEX = /entry-title">\s*<a\s*href="(.*)?"\s*title="(.*)"/
